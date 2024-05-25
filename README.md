@@ -34,7 +34,7 @@ HandWrite2Type is a comprehensive web application that enables generating person
 Explore the HandWrite2Type through this informative video hosted on YouTube:
 
 ### Video: Key Feature Showcase
-[![Introduction to HandWrite2Type Key Features](Demo.gif)](https://www.youtube.com/watch?v=-lDDzrqdD-8)
+[![Introduction to HandWrite2Type Key Features](Demo.gif)](https://youtu.be/4afRhcApeOw)
 
 ## Installation
 
