@@ -1,8 +1,8 @@
-HandWrite2Type
+# HandWrite2Type
 
 HandWrite2Type is a comprehensive web application that enables generating personalized fonts from handwritten samples, converting documents between PDF and Word formats, and summarizing text documents. Built with ReactJS and Flask, it leverages image processing, contour detection, character recognition, and the FontForge library to generate TrueType fonts from handwritten samples. The document conversion module uses pdf2docx and tabula-py libraries for PDF-Word conversion and table extraction. The summarization feature, powered by the LaMini-Flan-T5-248M model, generates concise summaries of text documents through natural language processing techniques.
 
-Features
+## Features
 
 - **Font Generation from Handwritten Samples**: Generate custom TrueType fonts from handwritten character samples.
 - **Document Conversion**: Convert PDF documents to editable Word (DOCX) format while preserving formatting and layout.
@@ -11,7 +11,7 @@ Features
 - **Font History and Management**: View, search, filter, and download previously generated fonts.
 - **Font Preview**: Preview generated fonts with customizable sample text.
 
-Technologies Used
+## Technologies Used
 
 **Frontend**
 - ReactJS
@@ -29,7 +29,7 @@ Technologies Used
 **Database**
 - MySQL
 
-Installation
+## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/HandWrite2Type.git`
 2. Install frontend dependencies: `cd frontend && npm install`
@@ -39,7 +39,7 @@ Installation
 6. Start the backend Flask server: `cd backend && flask run`
 7. Open your web browser and navigate to `http://localhost:3000` to access the HandWrite2Type application.
 
-**Automated Scripts**
+## Automated Scripts
   - Windows Batch Script
     This script checks for the necessary installations and starts the backend and frontend.
     ````bash
@@ -110,13 +110,13 @@ Installation
     # Close this terminal
     exit
     ````
-**Project Structure**
+## Project Structure
   - Frontend: Contains the ReactJS code for the user interface.
   - Backend: Contains the Flask APIs for font generation, document conversion, and text summarization.
   - Api: Contains individual API scripts.
   - Temp: Contains the summarizer script and virtual environment.
 
-**Credits**
+## Credits
   The following technologies and libraries were used in this project:
   
   - ReactJS: For building the frontend.
@@ -127,3 +127,7 @@ Installation
   - LaMini-Flan-T5-248M model: For text summarization.
   - Spacy’s en_core_web_sm: For natural language processing.
   - Gnome Terminal: For running backend scripts.
+
+## Note
+
+  The API codes are not yet uploaded on this repository. 
